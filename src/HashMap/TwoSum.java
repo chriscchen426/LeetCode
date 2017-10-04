@@ -37,7 +37,6 @@ public class TwoSum {
 
         int[] res = twoSum(nums, target);
 
-
         System.out.print("["+res[0]+","+res[1]+"]");
     }
 
