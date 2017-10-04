@@ -18,11 +18,17 @@ public class TwoSum {
         int remain;
 
         for (int i = 0; i < nums.length; ++i) {
+
             remain = target - nums[i];
+
             if (map.containsKey(remain)) {
+
                 return new int[] {map.get(remain), i};
+
             }else {
+
                map.put(nums[i], i);
+
             }
         }
 
